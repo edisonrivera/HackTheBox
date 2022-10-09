@@ -1,4 +1,4 @@
-![Fawn.png](assets/fawn.jpg)
+![Fawn.png](/assets/fawn.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
