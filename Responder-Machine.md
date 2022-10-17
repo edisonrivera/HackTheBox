@@ -70,9 +70,10 @@ PORT     STATE SERVICE
 
 
 7. Do a **NTLM request**
+
 ![Responder-ntlm.PNG](/assets/responder-ntlm.PNG)
 
-8. See in **responder** the **user name** and **password hash**
+1. See in **responder** the **user name** and **password hash**
 
 ```bash
 [SMB] NTLMv2-SSP Client   : 10.129.87.40
