@@ -46,7 +46,9 @@ PORT   STATE SERVICE
 > With this you can keep session in any part of web page.
 
 9. In **uploads** we load a php reverse shell
+    
 ![oopsie-upload.PNG](/assets/oopsie-upload.PNG)
+
 First, go to `/usr/share/webshells/php/php-reverse-shell.php`copy this file and put in directory's machine.
 Next, edit the file and put in `$IP` the IP address of tun0 and in `$PORT` put 4444
 
@@ -55,7 +57,7 @@ Next, edit the file and put in `$IP` the IP address of tun0 and in `$PORT` put 4
 Finally, upload the file.
 
 
-10. Use **gobuster** to discover others directories to access
+10.  Use **gobuster** to discover others directories to access
 ```bash
 ┌──(root㉿est)-[/home/kali/Desktop/Oopsie]
 └─| gobuster dir -u http://10.129.107.26 -w /usr/share/dirb/wordlists/small.txt 
