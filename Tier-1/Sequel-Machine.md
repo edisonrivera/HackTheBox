@@ -1,4 +1,4 @@
-![Sequel.PNG](/assets/sequel.jpg)
+![Sequel.PNG](/assets/Tier-1/Sequel/sequel.jpg)
 
 
 1. Send an ICMP echo request to machine's IP address..

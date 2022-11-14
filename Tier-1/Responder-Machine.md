@@ -1,4 +1,4 @@
-![Responder.jpg](/assets/responder.jpg)
+![Responder.jpg](/assets/Tier-1/Responder/responder.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
@@ -22,20 +22,20 @@ PORT     STATE SERVICE
 
 3. Before to access to web page we need to host the web page in `/etc/hosts`, put the **IP address machine** and the **name of web page**.
 
-![Responder-Hosts.PNG](/assets/responder-hosts.PNG)
+![Responder-Hosts.PNG](/assets/Tier-1/Responder/responder-hosts.PNG)
 
 4. Web Page
-![Responder-Web.PNG](/assets/responder-web.PNG)
+![Responder-Web.PNG](/assets/Tier-1/Responder/responder-web.PNG)
 
 
 5. To hack the machine use **LFI** (Local File Inclusion)
 
 + When change the language of web page we see that read a file.
-![Responder-language.PNG](/assets/responder-laguage.PNG)
+![Responder-language.PNG](/assets/Tier-1/Responder/responder-laguage.PNG)
 
 + If the query is not sanitized, we can read any file of server.
 
-![Responder-file.PNG](/assets/responder-LFI.PNG)
+![Responder-file.PNG](/assets/Tier-1/Responder/responder-LFI.PNG)
 
 
 
@@ -71,7 +71,7 @@ PORT     STATE SERVICE
 
 7. Do a **NTLM request**
 
-![Responder-ntlm.PNG](/assets/responder-ntlm.PNG)
+![Responder-ntlm.PNG](/assets/Tier-1/Responder/responder-ntlm.PNG)
 
 1. See in **responder** the **user name** and **password hash**
 

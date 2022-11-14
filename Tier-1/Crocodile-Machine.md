@@ -1,4 +1,4 @@
-![Crocodile.jpg](/assets/crocodile.jpg)
+![Crocodile.jpg](/assets/Tier-1/Crocodile/crocodile.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
@@ -20,8 +20,8 @@ PORT   STATE SERVICE
 ```
 
 3. Web Page and **login.php**
-![Crocodile-web.PNG](/assets/crocodile-web.PNG)
-![Crocodile-login.PNG](/assets/crocodile-login.PNG)
+![Crocodile-web.PNG](/assets/Tier-1/Crocodile/crocodile-web.PNG)
+![Crocodile-login.PNG](/assets/Tier-1/Crocodile/crocodile-login.PNG)
 
 
 4. Connect to **ftp** and put **anonymous** how user.
@@ -72,10 +72,10 @@ user: admin
 password: rKXM59ESxesUFHAd
 ```
   
-![Crocodile-login2.PNG](/assets/crocodile-login2.PNG)
+![Crocodile-login2.PNG](/assets/Tier-1/Crocodile/crocodile-login2.PNG)
 
 8. **BOOM** Obtain the flag
-![Crodile-flag.PNG](/assets/crocodile-flag.PNG)
+![Crodile-flag.PNG](/assets/Tier-1/Crocodile/crocodile-flag.PNG)
 
 
 **By: EsT**

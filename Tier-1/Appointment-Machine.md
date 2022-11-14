@@ -1,4 +1,4 @@
-![Appointment.jpg](/assets/appointment.jpg)
+![Appointment.jpg](/assets/Tier-1/Appointment/appointment.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
@@ -20,7 +20,7 @@ PORT   STATE SERVICE
 
 
 3. Access to web page in the browser
-![Web.PNG](/assets/appointment-web.PNG)
+![Web.PNG](/assets/Tier-1/Appointment/appointment-web.PNG)
 
 
 4. Out goal is broke the web page with **Sql Injection**
@@ -52,10 +52,10 @@ PORT   STATE SERVICE
 
 5. With this `' OR 1 = 1 -- -` 
 
-![Sql_Injection.PNG](/assets/appointment-web2.PNG)
+![Sql_Injection.PNG](/assets/Tier-1/Appointment/appointment-web2.PNG)
 
 6. And BOOM!
-![Flag](/assets/appointment-flag.PNG)
+![Flag](/assets/Tier-1/Appointment/appointment-flag.PNG)
 
 
 **By: Est**
