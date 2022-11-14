@@ -1,4 +1,4 @@
-![Archetype.jpg](/assets/archetype.jpg)
+![Archetype.jpg](/assets/Tier-2/Archetype/archetype.jpg)
 
 
 1. Send an ICMP echo request to machine's IP address.

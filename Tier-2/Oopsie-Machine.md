@@ -1,4 +1,4 @@
-![oopsie.jpg](/assets/oopsie.jpg)
+![oopsie.jpg](/assets/Tier-2/Oopsie/oopsie.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
@@ -21,38 +21,38 @@ PORT   STATE SERVICE
 
 
 3. View the web page
-![oopsie-web.PNG](/assets/oopsie-web.PNG)
+![oopsie-web.PNG](/assets/Tier-2/Oopsie/oopsie-web.PNG)
 
 
 4. With **BurpSuite** view petitions of web page and look anothers directorys
 
-![oopsie-burp.PNG](/assets/oopsie-burp.PNG)
+![oopsie-burp.PNG](/assets/Tier-2/Oopsie/oopsie-burp.PNG)
 
 
 5. Access to new directory
-![oopsie-login.PNG](/assets/oopsie-login.PNG)
+![oopsie-login.PNG](/assets/Tier-2/Oopsie/oopsie-login.PNG)
 
 
 6. Access as **Guest** and in **clients** look the url
-![oopsie-guest.PNG](/assets/oopsie-guest.PNG)
+![oopsie-guest.PNG](/assets/Tier-2/Oopsie/oopsie-guest.PNG)
 
 
 7. We can edit the **id**, if you put **1** you can access as **administrator**.
-![oopsie-admin.PNG](/assets/oopsie-admin.PNG)
+![oopsie-admin.PNG](/assets/Tier-2/Oopsie/oopsie-admin.PNG)
 
 
 8. For keep session as **administrator** edit the cookie
-![oopsie-cookie.PNG](/assets/oopsie-cookie.PNG)
+![oopsie-cookie.PNG](/assets/Tier-2/Oopsie/oopsie-cookie.PNG)
 > With this you can keep session in any part of web page.
 
 9. In **uploads** we load a php reverse shell
     
-![oopsie-upload.PNG](/assets/oopsie-upload.PNG)
+![oopsie-upload.PNG](/assets/Tier-2/Oopsie/oopsie-upload.PNG)
 
 First, go to `/usr/share/webshells/php/php-reverse-shell.php`copy this file and put in directory's machine.
 Next, edit the file and put in `$IP` the IP address of tun0 and in `$PORT` put 4444
 
-![oopsie-php.PNG](/assets/oopsie-php.PNG)
+![oopsie-php.PNG](/assets/Tier-2/Oopsie/oopsie-php.PNG)
 
 Finally, upload the file.
 
@@ -79,7 +79,7 @@ Finally, upload the file.
 
 12. Execute the php-reverse-shell.php in url
 
-![oopsie-reverse-url.PNG](/assets/oopsie-reverse-url.PNG)
+![oopsie-reverse-url.PNG](/assets/Tier-2/Oopsie/oopsie-reverse-url.PNG)
 
 13. Run this
 ```bash

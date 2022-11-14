@@ -1,4 +1,4 @@
-![Vaccine.jpg](/assets/vaccine.jpg)
+![Vaccine.jpg](/assets/Tier-2/Vaccine/vaccine.jpg)
 
 1. Send an ICMP echo request to machine's IP address.
 ```bash
@@ -147,19 +147,19 @@ if($_POST['username'] === 'admin' && md5($_POST['password']) === "2cb42f8734ea60
 ```
 
 10. Crack **2cb42f8734ea607eefed3b70af13bbd3** use MD5, use https://crackstation.net/
-![vaccine-md5.PNG](/assets/vaccine-md5.PNG)
+![vaccine-md5.PNG](/assets/Tier-2/Vaccine/vaccine-md5.PNG)
 
 * The password to login are: username **admin** and password **qwerty789**
 
 
 11. Login with credentials
 
-![vaccine-web.PNG](/assets/vaccine-web.PNG)
+![vaccine-web.PNG](/assets/Tier-2/Vaccine/vaccine-web.PNG)
 
 
 12. Use **BurpSuite** to capture a petition searching any thing.
-![vaccine-search.PNG](/assets/vaccine-search.PNG)
-![vaccine-petition.PNG](/assets/vaccine-petition.PNG)
+![vaccine-search.PNG](/assets/Tier-2/Vaccine/vaccine-search.PNG)
+![vaccine-petition.PNG](/assets/Tier-2/Vaccine/vaccine-petition.PNG)
 
 13. Put the output of petition on **r.req** file
 14. Use **sqlmap** to find vulnerabilities
@@ -229,7 +229,7 @@ User postgres may run the following commands on vaccine:
 ```
 
 21. Use https://gtfobins.github.io/ to search exploit with **vi**
-![vaccine-vi.PNG](/assets/vaccine-vi.PNG)
+![vaccine-vi.PNG](/assets/Tier-2/Vaccine/vaccine-vi.PNG)
 
 
 22. Edit file **/bin/vi /etc/postgresql/11/main/pg_hba.conf**
