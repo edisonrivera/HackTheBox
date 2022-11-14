@@ -1,4 +1,4 @@
-![Redeemer.jpg](/assets/redeemer.jpg)
+![Redeemer.jpg](/assets/Tier-0/Redeemer/redeemer.jpg)
 
 1. Send an ICMP echo request to machine's IP address..
 ```bash
