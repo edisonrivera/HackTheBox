@@ -1,4 +1,4 @@
-![Explore.PNG](/assets/Explore/Explore.png)
+![Explore.PNG](/assets/Machines/Easy/Explore/Explore.png)
 
 
 1. Send an ICMP echo request to machine's IP address.
@@ -59,7 +59,7 @@ ES File Explorer 4.1.9.7.4 - Arbitrary File Read                                
 
 7. Open image
 
-![creds.PNG](/assets/Explore/creds.PNG)
+![creds.PNG](/assets/Machines/Easy/Explore/creds.PNG)
 
 
 8. Login with ssh 

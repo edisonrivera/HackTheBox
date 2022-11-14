@@ -1,4 +1,4 @@
-![Squashed.PNG](/assets/Squashed/Squashed.png)
+![Squashed.PNG](/assets/Machines/Easy/Squashed/Squashed.png)
 
 1. Send an ICMP echo request to machine's IP address.
 ```bash
@@ -98,7 +98,7 @@ drwxr-xr-x 14 1001 1001 4096 Nov 11 16:54 2
 
 9. Make petition to **reverse_shell.php** into navigator.
 
-![revshell.PNG](/assets/Squashed/revshell.PNG)
+![revshell.PNG](/assets/Machines/Easy/Squashed/revshell.PNG)
 
 
 10. Now, we can obtain a reverse shell
@@ -249,7 +249,7 @@ alex@squashed:/tmp$ python3 -m http.server
 
 10. Open the image
 
-![creds.PNG](/assets/Squashed/creds.PNG)
+![creds.PNG](/assets/Machines/Easy/Squashed/creds.PNG)
 
 
 11. Log with ssh

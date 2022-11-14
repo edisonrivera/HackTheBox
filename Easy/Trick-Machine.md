@@ -1,4 +1,4 @@
-![Trick.PNG](/assets/Trick/Trick.png)
+![Trick.PNG](/assets/Machines/Easy/Trick/Trick.png)
 
 1. Send an ICMP echo request to machine's IP address.
 ```bash
@@ -24,10 +24,10 @@ PORT   STATE SERVICE
 
 3. Do virtual hosting in `/etc/hosts`
 
-![host.PNG](/assets/Trick/host.PNG)
+![host.PNG](/assets/Machines/Easy/Trick/host.PNG)
 
 ---
-![page.PNG](/assets/Trick/page.PNG)
+![page.PNG](/assets/Machines/Easy/Trick/page.PNG)
 
 4. With `dig` search vhosts
 ```bash
@@ -54,21 +54,21 @@ trick.htb.              604800  IN      SOA     trick.htb. root.trick.htb. 5 604
 
 5. Put `preprod-payroll.trick.htb` into `/etc/hosts`
    
-![host-2.PNG](/assets/Trick/host-2.PNG)
+![host-2.PNG](/assets/Machines/Easy/Trick/host-2.PNG)
 
 ---
 In the new page, do a basic SQLi to login how **administrator**
 
-![page-2.PNG](/assets/Trick/page-2.PNG)
+![page-2.PNG](/assets/Machines/Easy/Trick/page-2.PNG)
 
 You login how **Administrator**!
 
-![admin.PNG](/assets/Trick/admin.PNG)
+![admin.PNG](/assets/Machines/Easy/Trick/admin.PNG)
 
 ---
 Go to **Users** and get a password
 
-![get-password.PNG](/assets/Trick/get-password.PNG)
+![get-password.PNG](/assets/Machines/Easy/Trick/get-password.PNG)
 
 
 
@@ -80,7 +80,7 @@ http://preprod-payroll.trick.htb/index.php?page=php://filter/convert.base64-enco
 
 **Output**
 
-![home-64.PNG](/assets/Trick/home-64.PNG)
+![home-64.PNG](/assets/Machines/Easy/Trick/home-64.PNG)
 * Decode this string
 
 ---
@@ -159,12 +159,12 @@ ID           Response   Lines    Word       Chars       Payload
 
 8. Put new vhost on `/etc/hosts`
 
-![host-3.PNG](/assets/Trick/host-3.PNG)
+![host-3.PNG](/assets/Machines/Easy/Trick/host-3.PNG)
 
 ---
 Visit the new page
 
-![page-3.PNG](/assets/Trick/page-3.PNG)
+![page-3.PNG](/assets/Machines/Easy/Trick/page-3.PNG)
 
 
 9. If you visit a new page, the web site load a file, you can try **LFI**
@@ -172,7 +172,7 @@ Visit the new page
 http://preprod-marketing.trick.htb/index.php?page=....//....//....//....//....//....//....//etc/passwd
 ```
 
-![passwd.PNG](/assets/Trick/passwd.PNG)
+![passwd.PNG](/assets/Machines/Easy/Trick/passwd.PNG)
 
 
 10. Get a `id_rsa` key of user **michael**
@@ -182,7 +182,7 @@ http://preprod-marketing.trick.htb/index.php?page=....//....//....//....//....//
 
 **Output**
 
-![id_rsa.PNG](/assets/Trick/id_rsa.PNG)
+![id_rsa.PNG](/assets/Machines/Easy/Trick/id_rsa.PNG)
 
 
 11. Login with ssh with the key
@@ -224,7 +224,7 @@ User michael may run the following commands on trick:
 -bash-5.0$ cp /etc/fail2ban/action.d/iptables-multiport.bak /etc/fail2ban/action.d/iptables-multiport.conf
 ```
 
-![fail2ban.PNG](/assets/Trick/fail2ban.PNG)
+![fail2ban.PNG](/assets/Machines/Easy/Trick/fail2ban.PNG)
 
 16. Restart service fail2ban 
 ```bash

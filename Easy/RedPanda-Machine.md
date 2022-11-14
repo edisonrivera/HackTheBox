@@ -1,4 +1,4 @@
-![RedPanda.PNG](/assets/RedPanda/RedPanda.png)
+![RedPanda.PNG](/assets/Machines/Easy/RedPanda/RedPanda.png)
 
 1. Send an ICMP echo request to machine's IP address.
 ```bash
@@ -22,7 +22,7 @@ PORT     STATE SERVICE
 
 3. Visit the page
    
-![Page.PNG](/assets/RedPanda/Page.PNG)
+![Page.PNG](/assets/Machines/Easy/RedPanda/Page.PNG)
 
 
 4. In this machine we can exploit ssti (https://www.acunetix.com/blog/web-security-zone/exploiting-ssti-in-thymeleaf/)
@@ -62,7 +62,7 @@ To convert: cat /etc/passwd
 
 Next, search and look
 
-![Example.PNG](/assets/RedPanda/Example.PNG)
+![Example.PNG](/assets/Machines/Easy/RedPanda/Example.PNG)
 
 7. Now, download on the machine a revese shell to next execute and obtaine a reverse shell.
 
@@ -131,7 +131,7 @@ woodenk@redpanda:/opt/panda_search/src/main/java/com/panda_search/htb/panda_sear
 ```
 
 
-![Password](/assets/RedPanda/Password.PNG)
+![Password](/assets/Machines/Easy/RedPanda/Password.PNG)
 
 10. Connect to ssh with credentials `woodenk` and `RedPandazRule`
 ```bash

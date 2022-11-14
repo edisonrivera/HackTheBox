@@ -1,4 +1,4 @@
-![Explore.PNG](/assets/BountyHunter/BountyHunter.png)
+![Explore.PNG](/assets/Machines/Easy/BountyHunter/BountyHunter.png)
 
 
 1. Send an ICMP echo request to machine's IP address.
@@ -24,24 +24,24 @@ PORT   STATE SERVICE
 
 3. Visit the web page
 
-![web.PNG](/assets/BountyHunter/web.PNG)
+![web.PNG](/assets/Machines/Easy/BountyHunter/web.PNG)
 
 
 4. Go to **Portal** >> Click on **here**
 
-![web2.PNG](/assets/BountyHunter/web2.PNG)
+![web2.PNG](/assets/Machines/Easy/BountyHunter/web2.PNG)
 
 
 5. Analyze the petition with **BurpSuite**
 
-![burp.PNG](/assets/BountyHunter/burp.PNG)
+![burp.PNG](/assets/Machines/Easy/BountyHunter/burp.PNG)
 
 6. The data is **encode in base64 and urlencode**, use BurpSuite to decode
 
 * First, urldecode data, select all and press `Ctrl` + `Shift` + `u`
 * Go to **Decode** and paste the selection data
   
-![decode.PNG](/assets/BountyHunter/decode.PNG)
+![decode.PNG](/assets/Machines/Easy/BountyHunter/decode.PNG)
 
 * Look the data tramited is a xml, we can inject entities to read files.
 
@@ -52,11 +52,11 @@ PORT   STATE SERVICE
 
 * Next, encode data int base64
 
-![xxe.PNG](/assets/BountyHunter/xxe.PNG)
+![xxe.PNG](/assets/Machines/Easy/BountyHunter/xxe.PNG)
 
 8. Send data encode and select all and press `Ctrl` + `u`
 
-![passwd.PNG](/assets/BountyHunter/passwd.PNG)
+![passwd.PNG](/assets/Machines/Easy/BountyHunter/passwd.PNG)
 
 * We look the users **development** and **root**
 
@@ -75,11 +75,11 @@ PORT   STATE SERVICE
 
 10. Read **db.php** with the entity created, but, this time we use other wrapper to read information.  `php://filter/convert.base64-encode/resource=db.php`
 
-![db.PNG](/assets/BountyHunter/db.PNG)
+![db.PNG](/assets/Machines/Easy/BountyHunter/db.PNG)
 
 **Output**
 
-![db_out.PNG](/assets/BountyHunter/db_out.PNG)
+![db_out.PNG](/assets/Machines/Easy/BountyHunter/db_out.PNG)
 
 
 11. Decode this data

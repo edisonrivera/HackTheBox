@@ -1,4 +1,4 @@
-![Shoppy.PNG](/assets/Shoppy/shoppy.jpg)
+![Shoppy.PNG](/assets/Machines/Easy/Shoppy/shoppy.jpg)
 
 
 1. Send an ICMP echo request to machine's IP address.
@@ -24,10 +24,10 @@ PORT     STATE SERVICE
 
 3. Host a machine in `/etc/hosts`
    
-![Shoppy-hosts.PNG](/assets/Shoppy/shoppt-hosts.PNG)
+![Shoppy-hosts.PNG](/assets/Machines/Easy/Shoppy/shoppt-hosts.PNG)
 
 4. Web Page
-![Shopyy-web.PNG](/assets/Shoppy/shoppy-web.PNG)
+![Shopyy-web.PNG](/assets/Machines/Easy/Shoppy/shoppy-web.PNG)
 
 
 5. Use **gobuster** to find directories
@@ -54,8 +54,8 @@ PORT     STATE SERVICE
 
 6. Do **No Sql Injection Attack** --- `admin'||'1==1`
 7. In Search option write `admin` and `josh`
-![Shoppy-admin.PNG](/assets/Shoppy/shoppy-admin.PNG)
-![Shoppy-josh.PNG](/assets/Shoppy/shoppy-josh.PNG)
+![Shoppy-admin.PNG](/assets/Machines/Easy/Shoppy/shoppy-admin.PNG)
+![Shoppy-josh.PNG](/assets/Machines/Easy/Shoppy/shoppy-josh.PNG)
 
 8. Crack with **Hashcat** Josh's password
 ```bash
@@ -82,12 +82,12 @@ Found: mattermost.shoppy.htb (Status: 200) [Size: 3122]
 
 10. Put vhost found in `/etc/hosts`
     
-![Shoppy-vhost.PNG](/assets/Shoppy/shoppy-vhost.PNG)
+![Shoppy-vhost.PNG](/assets/Machines/Easy/Shoppy/shoppy-vhost.PNG)
 
 11. Visit the vhost found and put credentials of **Josh**
 12. Look on **Channel** > **Deploy Machine**
 
-![Shoppy-mattermost.JPG](/assets/Shoppy/shoppy-mattermost.PNG)
+![Shoppy-mattermost.JPG](/assets/Machines/Easy/Shoppy/shoppy-mattermost.PNG)
 
 13. Connect to ssh with user jaeger
 ```bash
@@ -147,10 +147,10 @@ deploy@shoppy:~$
 
 
 20. If you look the message of **Josh** he tell let's use docker to deploy a machine
-![Shoppy-message.PNG](/assets/Shoppy/shoppy-message.PNG)
+![Shoppy-message.PNG](/assets/Machines/Easy/Shoppy/shoppy-message.PNG)
 
 21. To get access how root use **https://gtfobins.github.io/** and search **docker**
-![Shoppy-gtfo.PNG](/assets/Shoppy/shoppy-gtfo.PNG)
+![Shoppy-gtfo.PNG](/assets/Machines/Easy/Shoppy/shoppy-gtfo.PNG)
 
 
 22. Run the command

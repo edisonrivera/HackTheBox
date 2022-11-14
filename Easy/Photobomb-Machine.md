@@ -1,4 +1,4 @@
-![Photobomb.PNG](/assets/PhotoBomb/photobomb.jpg)
+![Photobomb.PNG](/assets/Machines/Easy/Photobomb/photobomb.jpg)
 
 
 1. Send an ICMP echo request to machine's IP address.
@@ -23,7 +23,7 @@ PORT   STATE SERVICE
 
 3. Add to `/etc/hosts` IP address machine and `photobomb.hbt`
 
-![Photobomb](/assets/PhotoBomb/photobomb-host.PNG)
+![Photobomb](/assets/Machines/Easy/Photobomb/photobomb-host.PNG)
 
 4. Use **feroxbuster** to enum directories of web site
 
@@ -64,24 +64,24 @@ by Ben "epi" Risher 🤓                 ver: 2.7.0
 ```
 
 5. Access `http://photobomb.htb/photobomb.js`
-![Photobomb-dir.PNG](/assets/PhotoBomb/photobomb-dir.PNG)
+![Photobomb-dir.PNG](/assets/Machines/Easy/Photobomb/photobomb-dir.PNG)
 * Obtained a user **pH0t0** and password **b0Mb!** to login
 
 6. After login, click on
 
-![Photobomb-button.PNG](/assets/PhotoBomb/photobomb-button.PNG)
+![Photobomb-button.PNG](/assets/Machines/Easy/Photobomb/photobomb-button.PNG)
 
 and analize with **BurpSuite**
 
-![Photobomb-burp.PNG](/assets/PhotoBomb/photbomb-burp.PNG)
+![Photobomb-burp.PNG](/assets/Machines/Easy/Photobomb/photbomb-burp.PNG)
 
 7. We can inject a code of reverse shell, use **https://www.revshells.com/** 
-![Photobomb-rev.PNG](/assets/PhotoBomb/photobomb-rev.PNG)
+![Photobomb-rev.PNG](/assets/Machines/Easy/Photobomb/photobomb-rev.PNG)
 > Use you **tun0** IP address
 
 
 8. Listen on port of you reverse shell and inject code of reverse shell on petition
-![Photobomb-inject.PGN](/assets/PhotoBomb/photobomb-inject.PNG)
+![Photobomb-inject.PGN](/assets/Machines/Easy/Photobomb/photobomb-inject.PNG)
 
 9. Spawn a `/bin/bash` on reverse shell
 ```bash
