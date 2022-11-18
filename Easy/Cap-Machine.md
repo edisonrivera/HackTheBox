@@ -1,4 +1,4 @@
-![Cap.PNG](/assets/Machines/Easy/Cap/cap.png)
+![Cap.PNG](/assets/Machines/Easy/Cap/cap.PNG)
 
 
 1. Send an ICMP echo request to machine's IP address.
