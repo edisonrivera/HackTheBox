@@ -28,3 +28,4 @@
 |     `Shoppy`   |    _**Linux**_   |  `NoSQLi` / `Leak Information` / `Misconfiguration` / `Binary Exploitation` |
 |   `Squashed`   |    _**Linux**_   |  `NFS` / `Leak Information` |
 |     `Trick`    |    _**Linux**_   |  `Vhost Busting` / `SQLi` / `Leak Information` / `LFI` / `fail2ban` |
+|    `Academy`   |    _**Linux**_   |  `Modified Petition` / `Leak Information` / `Laravel` / `Binary Exploitation` |
