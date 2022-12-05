@@ -1,4 +1,4 @@
-![Netmon.PNG](/assets/Machines/Easy/Netmon/Netmon.png)
+![OpenAdmin.PNG](/assets/Machines/Easy/OpenAdmin/OpenAdmin.png)
 
 
 1. Send an ICMP echo request to machine's IP address.
