@@ -29,5 +29,6 @@
 |   `Squashed`   |    _**Linux**_   |  `NFS` / `Leak Information` |
 |     `Trick`    |    _**Linux**_   |  `Vhost Busting` / `SQLi` / `Leak Information` / `LFI` / `fail2ban` |
 |    `Academy`   |    _**Linux**_   |  `Modified Petition` / `Leak Information` / `Laravel` / `Binary Exploitation` |
+|    `Shocker`   |    _**Linux**_   |  `ShellShock` / `Binary Exploitation` |
 |   `OpenAdmin`  |    _**Linux**_   |  `OpenNetAdmin Remote Code Execution` / `Leak Information` / `Binary Exploitation` |
 |   `Nunchucks`  |    _**Linux**_   |  `SSTI` / `Capability UID` / `AppArmor Bug` |
