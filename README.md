@@ -23,6 +23,7 @@
 |     `Knife`    |    _**Linux**_   |  `PHP/8.1.0 Backdoor` / `Binary Exploitation` |
 |     `Lame`     |    _**Linux**_   |  `Samba 3.0.20 Command Execution` |
 |   `Networked`  |    _**Linux**_   |  `Dir Busting` / `PHP hide in Picture` / `Misconfiguration` / `Cron tasks` |
+|    `Netmon`    |   _**Windows**_  |  `Leak Information` / `PRTG Command Injection` |
 |   `Photobomb`  |    _**Linux**_   |  `Dir Busting` / `Leak Information` / `TEMP Binary` |
 |   `RedPanda`   |    _**Linux**_   |  `SSTI` / `Leak Information` |
 |     `Shoppy`   |    _**Linux**_   |  `NoSQLi` / `Leak Information` / `Misconfiguration` / `Binary Exploitation` |
