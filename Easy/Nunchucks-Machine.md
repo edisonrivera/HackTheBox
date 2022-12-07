@@ -1,4 +1,4 @@
-![OpenAdmin.PNG](/assets/Machines/Easy/OpenAdmin/OpenAdmin.png)
+![Nunchucks.PNG](/assets/Machines/Easy/Nunchucks/Nunchucks.png)
 
 
 1. Send an ICMP echo request to machine's IP address.
