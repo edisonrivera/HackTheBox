@@ -7,6 +7,8 @@
 |:--------:|:-----------:|:---:|
 | **RevShells** | Generate a reverse shell in many languajes | https://www.revshells.com/ |
 | **GTFOBins** | Ways to exploit differents binaries | https://gtfobins.github.io/ |
+| **HackTricks** | Information of exploits | https://book.hacktricks.xyz/welcome/readme |
+| **PayloadsAllTheThings** | Information of exploits | https://github.com/swisskyrepo/PayloadsAllTheThings |
 
 
 
