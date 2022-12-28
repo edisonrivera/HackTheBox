@@ -36,3 +36,4 @@
 |   `OpenAdmin`  |    _**Linux**_   |  `OpenNetAdmin Remote Code Execution` / `Leak Information` / `Binary Exploitation` |
 |   `Nunchucks`  |    _**Linux**_   |  `SSTI` / `Capability UID` / `AppArmor Bug` |
 |  `Armaggedon`  |    _**Linux**_   |  `Leak Information` / `CVE-2018-7600` / `Snap` |
+|     `Love`     |    _**Windows**_   |  `SSRF` / `Leak Information` / `AlwaysInstallElevated Exploit (msi file)` |
