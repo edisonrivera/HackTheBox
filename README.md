@@ -39,3 +39,4 @@
 |     `Love`     |   _**Windows**_  |  `SSRF` / `Leak Information` / `AlwaysInstallElevated Exploit (msi file)` |
 |    `Driver`    |   _**Windows**_  |  `SCF Malicious File` / `Weak Password` / `PrintNightmare LPE [CVE-2021-1675]` |
 |     `Mirai`    |    _**Linux**_   |  `Default Credentials` |
+|    `Blocky`    |    _**Linux**_   |  `Reusing Password` / `Leak Information` |
