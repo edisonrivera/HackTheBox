@@ -40,3 +40,4 @@
 |    `Driver`    |   _**Windows**_  |  `SCF Malicious File` / `Weak Password` / `PrintNightmare LPE [CVE-2021-1675]` |
 |     `Mirai`    |    _**Linux**_   |  `Default Credentials` |
 |    `Blocky`    |    _**Linux**_   |  `Reusing Password` / `Leak Information` |
+|   `Previse`    |    _**Linux**_   |  `EAR` / `Leak Information` / `Weak Password` / `Path Hijacking` |
