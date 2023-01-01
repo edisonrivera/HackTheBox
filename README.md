@@ -41,3 +41,4 @@
 |     `Mirai`    |    _**Linux**_   |  `Default Credentials` |
 |    `Blocky`    |    _**Linux**_   |  `Reusing Password` / `Leak Information` |
 |   `Previse`    |    _**Linux**_   |  `EAR` / `Leak Information` / `Weak Password` / `Path Hijacking` |
+|   `Optimum`    |   _**Windows**_  |  `Remote Command Execution` / `RGNOBJ Integer Overflow (MS16-098)` |
