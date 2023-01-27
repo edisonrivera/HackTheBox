@@ -44,4 +44,5 @@
 |   `Optimum`    |   _**Windows**_  |  `Remote Command Execution` / `RGNOBJ Integer Overflow (MS16-098)` |
 |   `Curling`    |    _**Linux**_   |  `Leak Information` / `Crontab Abussing` |
 |    `Granny`    |  _**Windows**_   |  `IIS` / `churrasco.exe [Windows Server 2003 Exploit]` |
-|    `Grandpa`    |  _**Windows**_   |  `IIS` / `CVE-2017-7269` / `churrasco.exe [Windows Server 2003 Exploit]` |
+|    `Grandpa`   |  _**Windows**_   |  `IIS` / `CVE-2017-7269` / `churrasco.exe [Windows Server 2003 Exploit]` |
+|   `Haystack`   |    _**Linux**_   |  `ElasticSearch` / `Leak Information` / `CVE-2018-17246 [Kibana LFI]` / `Misconfiguration` |
