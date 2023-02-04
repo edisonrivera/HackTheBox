@@ -46,5 +46,6 @@
 |    `Granny`    |  _**Windows**_   |  `IIS` / `churrasco.exe [Windows Server 2003 Exploit]` |
 |    `Grandpa`   |  _**Windows**_   |  `IIS` / `CVE-2017-7269` / `churrasco.exe [Windows Server 2003 Exploit]` |
 |   `Haystack`   |    _**Linux**_   |  `ElasticSearch` / `Leak Information` / `CVE-2018-17246 [Kibana LFI]` / `Misconfiguration` |
-|     `Devel`    |    _**Windows**_   |  `FTP` / `IIS` / `MS11-046` |
-|     `Buff`     |    _**Windows**_   |  `Python` / `Information Leak` / `Buffer Overflow` |
+|     `Devel`    |   _**Windows**_  |  `FTP` / `IIS` / `MS11-046` |
+|     `Buff`     |   _**Windows**_  |  `Python` / `Information Leak` / `Buffer Overflow` |
+|    `Writeup`   |    _**Linux**_   |  `Information Leak` / `CVE-2019-9053` / `Path Hijacking` |
